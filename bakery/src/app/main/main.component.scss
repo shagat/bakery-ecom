@@ -1,5 +1,26 @@
 .main {
-  display: flex;
-  width: 100vw;
-  place-items: center;
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+  gap: 5px;
+  .head {
+    background-color: gray;
+    grid-column: 1 / 4;
+    text-align: left;
+    padding-left: 2rem;
+  }
+  .right {
+    background-color: green;
+  }
+  .left {
+    background-color: blue;
+    padding-left: 0.5rem;
+    width: 250px;
+  }
+  .footer {
+    background-color: khaki;
+    grid-column: 1/4;
+  }
+  .main {
+    background-color: red;
+  }
 }
