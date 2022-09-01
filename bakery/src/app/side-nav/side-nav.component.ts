@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./side-nav.component.scss']
 })
 export class SideNavComponent implements OnInit {
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
-
+ 
 }

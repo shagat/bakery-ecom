@@ -1,0 +1,17 @@
+.content {
+  display: flex;
+  flex: 0 1 150px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5px;
+  .card {
+    display: flex;
+    width: clamp(250px, 50%, 350px);
+    height: 350px;
+    flex-direction: column;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-evenly;
+    background-color: chocolate;
+  }
+}

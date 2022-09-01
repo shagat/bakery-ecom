@@ -1,0 +1,9 @@
+.left {
+  background-color: blue;
+  width: 250px;
+  transition: all 2s ease;
+}
+.left-collapsed {
+  margin-left: -250px;
+  background-color: gold;
+}
