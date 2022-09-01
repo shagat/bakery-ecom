@@ -1,12 +1,13 @@
-<div class="main">
+<div class="parent">
   <div class="head">
     <h1>Bakery House</h1>
   </div>
-  <div class="left">
+  <div class="" [ngClass]="sideNavState ? 'left':'left-collapsed'">
     <app-side-nav></app-side-nav>
   </div>
   <div class="main">
     <p>main works!</p>
+    <button (click)="toggleSideNav()">Side Nav</button>
   </div>
   <div class="right">
     <p>right works!</p>

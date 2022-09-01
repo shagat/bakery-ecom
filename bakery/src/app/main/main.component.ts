@@ -3,14 +3,14 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.scss']
+  styleUrls: ['./main.component.scss'],
 })
-export class MainComponent implements OnInit {
-user = 'Dave'
-  constructor() { }
+export class MainComponent {
+  sideNavState = true;
+  constructor() {}
 
-  ngOnInit(): void {
-
+  toggleSideNav() {
+    this.sideNavState = !this.sideNavState;
+    console.log(this.sideNavState);
   }
-
 }
