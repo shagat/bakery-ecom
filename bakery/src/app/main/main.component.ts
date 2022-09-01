@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
-
+user = 'Dave'
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
 }
