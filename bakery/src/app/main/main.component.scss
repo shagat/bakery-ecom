@@ -13,9 +13,9 @@
   }
   .left {
     background-color: blue;
-    width: 250px;
+    width: 275px;
     opacity: 1;
-    transition: all 0.8s ease-out;
+    transition: all 1s ease;
   }
   .left-collapsed {
     margin-left: -250px;
