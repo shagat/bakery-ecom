@@ -27,5 +27,10 @@
   }
   .main {
     background-color: red;
+    .btn {
+      position: relative;
+      top: 8px;
+      left: 23px;
+    }
   }
 }

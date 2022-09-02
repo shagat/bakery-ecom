@@ -1,17 +1,25 @@
 .content {
   display: flex;
-  flex: 0 1 150px;
+  flex: 1 1 175px;
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 5px;
   .card {
     display: flex;
+    border-radius: 10px;
     width: clamp(250px, 50%, 350px);
-    height: 350px;
+    height: 300px;
     flex-direction: column;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
     justify-content: space-evenly;
     background-color: chocolate;
+    img {
+      align-self: center;
+      border-radius: 10px;
+      width: 175px;
+      height: 175px;
+    }
   }
 }
