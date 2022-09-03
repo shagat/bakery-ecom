@@ -7,9 +7,9 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { ContentComponent } from './content/content.component';
-import { CakeComponent } from './content/cake/cake.component';
-import { CakeListComponent } from './content/cake/cake-list/cake-list.component';
-import { CakeItemComponent } from './content/cake/cake-item/cake-item.component';
+import { ItemsComponent } from './content/items/items.component';
+import { ItemListComponent } from './content/items/item-list/item-list.component';
+import { ItemComponent } from './content/items/item/item.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +17,11 @@ import { CakeItemComponent } from './content/cake/cake-item/cake-item.component'
     MainComponent,
     SideNavComponent,
     ContentComponent,
-    CakeComponent,
-    CakeListComponent,
-    CakeItemComponent,
+    ItemsComponent,
+    ItemListComponent,
+    ItemComponent,
+
+
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
