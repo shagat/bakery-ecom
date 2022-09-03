@@ -1,9 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+$primary-bg-color: #e9eae0;
+$secondary-bg-color: #f7bec0;
+$primary-color: #c85250;
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Cormorant Garamond", serif;
+  border-color: $secondary-bg-color;
 }
 
 .btn {
