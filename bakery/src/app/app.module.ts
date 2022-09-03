@@ -10,6 +10,7 @@ import { ContentComponent } from './content/content.component';
 import { ItemsComponent } from './content/items/items.component';
 import { ItemListComponent } from './content/items/item-list/item-list.component';
 import { ItemComponent } from './content/items/item/item.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ItemComponent } from './content/items/item/item.component';
     ItemsComponent,
     ItemListComponent,
     ItemComponent,
+    DropdownDirective,
 
 
   ],
