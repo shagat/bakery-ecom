@@ -1,6 +1,15 @@
 <div class="parent">
   <div class="head">
-    <h1>Bakery House</h1>
+    <div class="logo">
+      <h1>Bakery House</h1>
+    </div>
+    <div class="head-menu">
+      <ul>
+        <li><a>My Cart</a></li>
+        <li><a>Checkout</a></li>
+        <li><a></a></li>
+      </ul>
+    </div>
   </div>
   <div class="left" [ngClass]="sideNavState ? '' : 'left-collapsed'">
     <app-side-nav></app-side-nav>
