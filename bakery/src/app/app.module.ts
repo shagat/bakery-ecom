@@ -11,7 +11,6 @@ import { ItemsComponent } from './content/items/items.component';
 import { ItemListComponent } from './content/items/item-list/item-list.component';
 import { ItemComponent } from './content/items/item/item.component';
 import { DropdownDirective } from './shared/dropdown.directive';
-import { RippleDirective } from './shared/ripple.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatRippleModule } from '@angular/material/core';
 import { FooterComponent } from './footer/footer.component';
@@ -27,7 +26,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ItemListComponent,
     ItemComponent,
     DropdownDirective,
-    RippleDirective,
     FooterComponent,
   ],
   imports: [
