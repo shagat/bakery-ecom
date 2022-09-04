@@ -11,6 +11,8 @@ import { ItemsComponent } from './content/items/items.component';
 import { ItemListComponent } from './content/items/item-list/item-list.component';
 import { ItemComponent } from './content/items/item/item.component';
 import { DropdownDirective } from './shared/dropdown.directive';
+import { RippleDirective } from './shared/ripple.directive';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,10 +24,11 @@ import { DropdownDirective } from './shared/dropdown.directive';
     ItemListComponent,
     ItemComponent,
     DropdownDirective,
+    RippleDirective,
 
 
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
