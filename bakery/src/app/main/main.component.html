@@ -18,7 +18,9 @@
     <app-side-nav></app-side-nav>
   </div>
   <div class="main">
-    <button class="btn" (click)="toggleSideNav()">Side Nav</button>
+    <button class="btn" (click)="toggleSideNav()" matRipple [matRippleColor]="'rgba(200,82,80,.4)'">
+      <fa-icon [icon]="faBars"></fa-icon>
+    </button>
     <app-content></app-content>
   </div>
   <div class="footer">

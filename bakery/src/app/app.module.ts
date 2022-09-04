@@ -13,8 +13,9 @@ import { ItemComponent } from './content/items/item/item.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { RippleDirective } from './shared/ripple.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatRippleModule} from '@angular/material/core';
-import { FooterComponent } from './footer/footer.component'
+import { MatRippleModule } from '@angular/material/core';
+import { FooterComponent } from './footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,14 @@ import { FooterComponent } from './footer/footer.component'
     RippleDirective,
     FooterComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule, MatRippleModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatRippleModule,
+    FontAwesomeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Route, Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-main',
@@ -9,6 +10,7 @@ import { ActivatedRoute, Route, Router } from '@angular/router';
 })
 export class MainComponent implements OnInit {
   sideNavState = true;
+  faBars = faBars;
 
   constructor(private http: HttpClient, private route: ActivatedRoute, private router: Router) {}
 
