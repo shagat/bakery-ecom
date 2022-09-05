@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { faHouzz } from '@fortawesome/free-brands-svg-icons';
 import {
+  faHome,
+  faCake,
+  faGlassWhiskey,
   faCommentDots,
-  faSnowflake,
-  faStar,
-} from '@fortawesome/free-regular-svg-icons';
+} from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-side-nav',
@@ -12,9 +12,9 @@ import {
   styleUrls: ['./side-nav.component.scss'],
 })
 export class SideNavComponent implements OnInit {
-  faHome = faHouzz;
-  faStar = faStar;
-  faSnow = faSnowflake;
+  faHome = faHome;
+  faCake = faCake;
+  faSnow = faGlassWhiskey;
   faComment = faCommentDots;
   constructor() {}
 

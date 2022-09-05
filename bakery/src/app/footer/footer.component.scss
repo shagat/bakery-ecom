@@ -1,8 +1,15 @@
 .footer {
   display: flex;
   justify-content: space-around;
-  ul{
+  ul {
     list-style: none;
     text-align: center;
+    li{
+      margin: 4px;
+    }
   }
+}
+fa-icon {
+  color: rgba($color: #f7bec0, $alpha: 0.8);
+  font-size: larger;
 }
