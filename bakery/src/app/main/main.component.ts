@@ -5,6 +5,7 @@ import {
   faBars,
   faCartShopping,
   faMoneyCheck,
+  faSearch,
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -17,6 +18,7 @@ export class MainComponent implements OnInit {
   faBars = faBars;
   faCart = faCartShopping;
   faCheckout = faMoneyCheck;
+  faSearch = faSearch;
 
   constructor(
     private http: HttpClient,

@@ -5,6 +5,11 @@
   flex-wrap: wrap;
   margin: 5px;
   margin-bottom: 2rem;
+  .content-heading{
+    position: absolute;
+    top: 4rem;
+    left: 10;
+  }
   .card {
     display: flex;
     flex-direction: column;

@@ -24,6 +24,17 @@
         }
       }
     }
+    .search{
+      place-self: center; 
+      width: 300px;
+      input{
+        border: none;
+        border-radius: 10px;
+        margin-left: 5px;
+        padding: 3px;
+        width: 90%;
+      }
+    }
   }
 
   .left {
@@ -42,13 +53,21 @@
   }
   .main {
     background-color: #e9eae0;
-    .btn {
-      position: relative;
-      top: 8px;
-      left: 23px;
-    }
-    fa-icon {
-      padding: 15px;
+    .sub-heading {
+      display: flex;
+      width: 100%;
+      justify-content: flex-start;
+      button {
+        position: relative;
+        left: 20px;
+        top: 5px;
+        background-color: transparent;
+      }
+      h2 {
+        position: relative;
+        left: 60px;
+        top: 5px;
+      }
     }
   }
 }

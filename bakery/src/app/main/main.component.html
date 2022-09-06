@@ -3,6 +3,10 @@
     <div class="logo">
       <h1>Bakery House</h1>
     </div>
+    <div class="search">
+      <label for="search-bar"><fa-icon [icon]="faSearch"></fa-icon></label>
+      <input type="text" id="search-bar" placeholder="Search"/>
+    </div>
     <div class="head-menu">
       <ul>
         <li matRipple [matRippleColor]="'rgba(200,82,80,.4)'">
@@ -18,9 +22,17 @@
     <app-side-nav></app-side-nav>
   </div>
   <div class="main">
-    <button class="btn" (click)="toggleSideNav()" matRipple [matRippleColor]="'rgba(200,82,80,.4)'">
-      <fa-icon [icon]="faBars"></fa-icon>
-    </button>
+    <div class="sub-heading">
+      <button
+        class="btn"
+        (click)="toggleSideNav()"
+        matRipple
+        [matRippleColor]="'rgba(200,82,80,.4)'"
+      >
+        <fa-icon [icon]="faBars"></fa-icon>
+      </button>
+      <h2>Fresh and hot</h2>
+    </div>
     <app-content></app-content>
   </div>
   <div class="footer">
