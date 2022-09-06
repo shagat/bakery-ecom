@@ -6,10 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
-import { ContentComponent } from './content/content.component';
-import { ItemsComponent } from './content/items/items.component';
-import { ItemListComponent } from './content/items/item-list/item-list.component';
-import { ItemComponent } from './content/items/item/item.component';
+import { ItemsComponent } from './items/items.component';
+import { ItemListComponent } from './items/item-list/item-list.component';
+import { ItemComponent } from './items/item/item.component';
 import { DropdownDirective } from './shared/dropdown.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatRippleModule } from '@angular/material/core';
@@ -21,7 +20,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppComponent,
     MainComponent,
     SideNavComponent,
-    ContentComponent,
     ItemsComponent,
     ItemListComponent,
     ItemComponent,

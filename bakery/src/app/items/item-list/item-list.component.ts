@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-content',
-  templateUrl: './content.component.html',
-  styleUrls: ['./content.component.scss'],
+  selector: 'app-item-list',
+  templateUrl: './item-list.component.html',
+  styleUrls: ['./item-list.component.scss']
 })
-export class ContentComponent implements OnInit {
+export class ItemListComponent implements OnInit {
   items = [
     {
       itemName: 'Item1',
@@ -88,7 +88,9 @@ export class ContentComponent implements OnInit {
   reprehenderit?`,
     },
   ];
-  constructor() {}
+  constructor() { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
+
 }
