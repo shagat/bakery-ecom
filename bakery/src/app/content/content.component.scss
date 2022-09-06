@@ -38,6 +38,10 @@
         width: 150px;
         height: 175px;
       }
+      &:hover{
+        scale: 1.01;
+        background-color: rgba(200,82,80,.93);
+      }
     }
     .card-btn {
       display: flex;
