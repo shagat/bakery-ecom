@@ -13,22 +13,14 @@ import {
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.scss'],
 })
-export class MainComponent implements OnInit {
+export class MainComponent {
   sideNavState = true;
   faBars = faBars;
   faCart = faCartShopping;
   faCheckout = faMoneyCheck;
   faSearch = faSearch;
 
-  constructor(
-    private http: HttpClient,
-    private route: ActivatedRoute,
-    private router: Router
-  ) {}
-
-  ngOnInit(): void {
-    console.log(this.route.params);
-  }
+  constructor() {}
 
   toggleSideNav() {
     this.sideNavState = !this.sideNavState;

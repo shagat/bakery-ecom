@@ -1,16 +1,5 @@
 <div class="content">
-<div class="card" *ngFor="let item of items">
-    <div class="card-content">
-      <a mat-ripple>
-        <h4>{{ item.itemName }}</h4>
-        <img [src]="item.imgLink" />
-        <p>{{ item.itemDesc }}</p>
-      </a>
-      <div class="card-btn">
-        <button mat-ripple>Add to cart</button>
-        <button mat-ripple>Buy</button>
-      </div>
-    </div>
+  <div class="card" *ngFor="let item of items">
+    <app-item [item]="item"></app-item>
   </div>
-<app-item></app-item>
 </div>
