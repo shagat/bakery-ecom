@@ -6,6 +6,7 @@ import {
   faCartShopping,
   faMoneyCheck,
   faSearch,
+  faUser
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -19,6 +20,7 @@ export class MainComponent {
   faCart = faCartShopping;
   faCheckout = faMoneyCheck;
   faSearch = faSearch;
+  faPerson = faUser;
 
   constructor() {}
 
