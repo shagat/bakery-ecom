@@ -8,6 +8,11 @@
       margin: 4px;
     }
   }
+  .footer-mid{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
 }
 fa-icon {
   color: rgba($color: #f7bec0, $alpha: 0.8);
