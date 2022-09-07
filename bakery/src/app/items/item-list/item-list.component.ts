@@ -7,7 +7,7 @@ import { ItemsService } from '../items.services';
   styleUrls: ['./item-list.component.scss'],
 })
 export class ItemListComponent implements OnInit {
-  items! : {itemName:'', imgLink: '', itemDesc:''}[]
+  items!: { itemName: string; imgLink: string; itemDesc: string }[];
   constructor(private ItemsService: ItemsService) {}
 
   ngOnInit(): void {
