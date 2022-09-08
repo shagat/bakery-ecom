@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatRippleModule } from '@angular/material/core';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ItemDetailsComponent } from './items/item-details/item-details.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ItemComponent,
     DropdownDirective,
     FooterComponent,
+    ItemDetailsComponent,
   ],
   imports: [
     BrowserModule,
