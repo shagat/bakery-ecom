@@ -1,5 +1,13 @@
 .container{
     display: flex;
-    position: relative;
-    left: 1.6rem;
+    flex-direction: column;
+    justify-content: space-between;
+    .details-image{
+        width: 280px;
+        height: 200px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
 }
