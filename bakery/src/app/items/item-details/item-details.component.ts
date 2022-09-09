@@ -18,7 +18,7 @@ export class ItemDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.params.subscribe((params: Params) => {
-      this.id = +params;
+      this.id = +params['id'];
       this.item = this.itemService.getItem(this.id);
     });
   }
