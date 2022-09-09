@@ -102,4 +102,7 @@ export class ItemsService {
   getItems() {
     return this.items.slice();
   }
+  getItem(index: number) {
+    return this.items[index];
+  }
 }

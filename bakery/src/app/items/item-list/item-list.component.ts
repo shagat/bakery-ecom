@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Item } from '../Items.model';
 import { ItemsService } from '../items.services';
 
 @Component({
@@ -7,7 +8,7 @@ import { ItemsService } from '../items.services';
   styleUrls: ['./item-list.component.scss'],
 })
 export class ItemListComponent implements OnInit {
-  items!: { itemName: string; imgLink: string[]; itemDesc: string }[];
+  items!: Item[];
   constructor(private ItemsService: ItemsService) {}
 
   ngOnInit(): void {
