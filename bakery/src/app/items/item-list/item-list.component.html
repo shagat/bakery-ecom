@@ -1,6 +1,6 @@
 <h2 class="list-head">Hot & Fresh</h2>
 <div class="content">
-  <div class="card" *ngFor="let item of items">
-    <app-item [item]="item"></app-item>
+  <div class="card" *ngFor="let item of items; let i = index">
+    <app-item [item]="item" [index]="i"></app-item>
   </div>
 </div>

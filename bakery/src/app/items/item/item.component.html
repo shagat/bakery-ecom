@@ -1,5 +1,5 @@
 <div class="card-content">
-    <a mat-ripple>
+    <a mat-ripple [routerLink]="[index]">
       <h4>{{ item.itemName }}</h4>
       <img [src]="item.itemImgs[0]" />
       <p>{{ item.itemDesc }}</p>
