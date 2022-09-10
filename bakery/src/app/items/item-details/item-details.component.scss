@@ -15,10 +15,12 @@
   .details-image {
     display: flex;
     height: 220px;
+    margin: 10px;
+    justify-content: space-around;
     img {
       border-radius: 10px;
-      width: 100%;
-      height: 100%;
+      width: clamp(220px, 50%, 400px);
+      height: clamp(220px, 50%, 420px);
     }
   }
 }
