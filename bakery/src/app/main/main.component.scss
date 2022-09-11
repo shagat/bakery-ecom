@@ -20,7 +20,7 @@
           border: 2px solid transparent;
         }
         &:hover {
-          border-bottom: 2px solid #c85250;
+          border-bottom: 2px solid rgba(200, 82, 80, 0.4);
         }
       }
     }
@@ -32,7 +32,16 @@
         border-radius: 10px;
         margin-left: 5px;
         padding: 3px;
+        text-align: center;
         width: 90%;
+      }
+      label:hover{
+        color: #c85250;
+      }
+      input {
+        &:hover {
+          background-color: rgba(200, 82, 80, 0.4);
+        }
       }
     }
   }

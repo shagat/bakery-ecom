@@ -13,7 +13,7 @@ import {
   styleUrls: ['./main.component.scss'],
 })
 export class MainComponent {
-  sideNavState = true;
+  sideNavState = false;
   faBars = faBars;
   faCart = faCartShopping;
   faCheckout = faMoneyCheck;
