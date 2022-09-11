@@ -19,8 +19,16 @@
     justify-content: space-around;
     img {
       border-radius: 10px;
-      width: clamp(220px, 50%, 400px);
-      height: clamp(220px, 50%, 420px);
+      min-width: 220px;
+      max-width: 320px;
     }
+  }
+  button{
+    position: absolute;
+    right: 20px;
+    font-weight: 550;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 5px;
   }
 }

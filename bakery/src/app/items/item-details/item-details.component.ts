@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Item } from '../Items.model';
 import { ItemsService } from '../items.services';
 
@@ -13,7 +13,8 @@ export class ItemDetailsComponent implements OnInit {
   id!: number;
   constructor(
     private route: ActivatedRoute,
-    private itemService: ItemsService
+    private itemService: ItemsService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
@@ -21,5 +22,8 @@ export class ItemDetailsComponent implements OnInit {
       this.id = +params['id'];
       this.item = this.itemService.getItem(this.id);
     });
+  }
+  onBack() {
+    this.router.navigate(['../'], { relativeTo: this.route });
   }
 }
