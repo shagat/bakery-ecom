@@ -15,6 +15,7 @@ import { MatRippleModule } from '@angular/material/core';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ItemDetailsComponent } from './items/item-details/item-details.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ItemDetailsComponent } from './items/item-details/item-details.componen
     DropdownDirective,
     FooterComponent,
     ItemDetailsComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
